@@ -12,3 +12,7 @@ font-family: 'Open Sans', sans-serif;
 - semi-bold: 600
 - bold: 700
 - extra-bold: 800
+
+## Issues / suggestions
+
+Just add an issue to this repo.
