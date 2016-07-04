@@ -1,3 +1,7 @@
+## Open Sans
+
+Currently only includes Latin versions of open sans.
+
 ## To use font
 
 font-family: 'Open Sans', sans-serif;
