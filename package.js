@@ -16,12 +16,14 @@ Package.onUse(function(api) {
   api.mainModule('open-sans.js');
 
   api.addAssets([
-    'font/OpenSans-Light.woff',
-    'font/OpenSans-Regular.woff',
-    'font/OpenSans-Semibold.woff',
-    'font/OpenSans-Bold.woff',
-    'font/OpenSans-Extrabold.woff',
+    'fonts/OpenSans-Light.woff',
+    'fonts/OpenSans-Regular.woff',
+    'fonts/OpenSans-Semibold.woff',
+    'fonts/OpenSans-Bold.woff',
+    'fonts/OpenSans-Extrabold.woff',
   ], 'client');
+
+  api.addFiles('fonts/OpenSans.css', 'client');
 });
 
 Package.onTest(function(api) {
